@@ -1,0 +1,159 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    overflow: hidden;
+    flex: auto;
+    height: 40px;
+    width: 100%;
+    color: black;
+    background-color: ghostwhite;
+}
+
+#navbar a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    flex-direction: row;
+    font-family: 'Bebas Neue';
+    font-size: 40px;
+}
+
+.sticky{
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.content{
+    padding-top: 40px;
+}
+
+div > div > a{ 
+    margin-right: 20px;
+    flex-direction: row;
+    font-family: 'Bebas Neue';
+    font-size: 40px;
+    right: 0;
+}
+
+#nav-bar a:hover{
+    color: grey;
+}
+
+img.alyssa{
+    position: relative;
+    width: 350px;
+    height: 350px;
+}
+
+#home, #projects{
+    padding: 2rem!important;
+    background-color: #b4b5d1;
+    flex:content;
+    text-align: center;
+    color: white;
+    padding-left: 0%;
+    font-family: 'Bebas Neue';
+}
+
+.home > h1{
+    font-size: 70px; 
+}
+
+.home > h3{
+    font-family: 'Source Serif Pro';
+}
+
+.home > h1, .home > h3{
+    color: white;
+    text-align: center;
+}
+
+img.school{
+    width: 150px;
+    height: 50px;
+}
+
+.about > h1{
+    font-size: 60px; 
+    text-align: center;
+    font-family: 'Bebas Neue';
+}
+
+.about > .child{
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    font-family: 'Source Serif Pro';
+    font-size: 17px;
+    text-align: center;
+}
+
+#about{
+    padding: 5rem!important;
+}
+
+.about > #child1{
+    width: 70%;
+}
+
+.about > #child2{
+    width: 20%;
+}
+
+.about > p{
+    font-size: 50px;
+}
+
+ul{
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+#child2 > ul > li{
+    justify-content: space-evenly;
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    *padding: .4em;
+    margin: .5em 0 .5em 2.5em;
+    fill: content;
+    background: #ddd;
+    color: #444;
+    text-decoration: none;
+}
+
+.projects > h1{
+    font-size: 70px; 
+}
+
+.container{
+    background-color: white;
+    width: 700px;
+    height: 450px;
+    margin: auto;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    color: black;
+}
+
+.rps{
+    height: 75%;
+    width: 75%;
+}
+
+#child3 > ul > a{
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    text-decoration: none;
+}

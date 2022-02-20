@@ -1,11 +1,86 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="script.js" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Patua+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Patua+One&family=Source+Serif+Pro:wght@200;400&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
 </head>
+
 <body>
+    <div class="sticky" id="navbar" name="navigation">
+        <a class="home" href="#home">Home</a>
+        <a class="about" href="#about">About</a>
+        <a class="project" href="#projects">Projects</a>
+
+            <a class="contact">Contact:</a>
+            <a class="git" href="https://github.com/alyssaoshita?tab=repositories">
+                <img src="images/git.png" alt="git" width="35px" height="35px">
+            </a>
+            <a class="linked" href="https://www.linkedin.com/in/alyssaoshita/">
+                <img src="images/linkedin.png" alt="linkedin" width="35px" height="35px">
+            </a>
+            <a class="mail" href="mailto:alyssaoshita@gmail.com?">
+                <img src="images/email.png" alt="email" width="35px" height="35px">
+            </a>
+    </div>
+
+    <div class="content" id="content">
+        <div class="home" id="home" name="home">
+            <img src="images/self.png" alt="pic of me" class="alyssa" >
+            <h1>Alyssa Oshita</h1>
+            <h3>Full Stack Software Developer<br> Studying Software Engineering at California Baptist University</h3>
+        </div>
     
+        <div class="about" id="about" name="about">
+            <h1>About Me:</h1>
+    
+            <div class="child" id="child1" name="bio">
+                <img src="images/cbu.png" alt="school" class="school">
+                <h3>Hi!</h3>
+                <p>I'm Alyssa, a full stack software engineer from Oahu, HI.
+                </p>
+                <p>I have experience with a start-up insurance company called We Care Insurace. <br>
+                    While I was there, I did several tasks such as validating data on backend servers,<br> 
+                    creating an address verifier using the USPS API, taking users addresses and checking <br>
+                    it with current addresses, and implementing an email verifier API.</p>
+                <p>My goal is to use my technical skills to create innovative software. <br>
+                    I am passionate about creating and building devices.</p>
+                <p>I will be graduating from California Baptist University's Software engineering Program.</p>
+            </div>
+    
+            <div class="child" id="child2" name="bio">
+                <ul>
+                    <li>Java</li>
+                    <li>MySQL</li>
+                    <li>Python</li>
+                    <li>C++</li>
+                    <li>HTML & CSS</li>
+                    <li>Git</li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="projects" id="projects" name="project">
+            <h1>Projects</h1>
+            <div class="container" id="holder">
+              <div class="child" id="child3" name="bio">
+                <ul>
+                  <a href="https://github.com/alyssaoshita/Rock-Paper-Scissors" id="rps">
+                    <li>Rock Paper Scissors</li>
+                  </a>
+                  <img src="images/project1.png" alt="project" class="rps">
+                </ul>
+              </div>
+            </div>
+        </div>
+    
+    </div>
+
+
 </body>
+
+
 </html>
